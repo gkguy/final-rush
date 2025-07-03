@@ -1,0 +1,20 @@
+{
+  "name": "final-rush",
+  "version": "1.0.0",
+  "description": "An Invoice Generator with PDF export",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon \"Invoice Generator/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkguy/final-rush.git"
+  },
+  "author": "Gracious Kamangira",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gkguy/final-rush/issues"
+  },
+  "homepage": "https://github.com/gkguy/final-rush#readme"
+}
