@@ -1,13 +1,15 @@
 const express = require('express')
 const router = express.Router()
 
-
-router.get('/', (req, res) => {
-  res.send("User List")
-})
-
-router.get('/new', (req, res) => {
-  res.send("User New Form")  
-})
+router.post('/', (req, res) => {
+  const userData = req.body;
+  console.log("User data has been recieved:", userData);
+  
+  res.status(201).json({
+    message: 'User created successfully',
+    data: userData
+  });
+});
 
 module.exports = router;
+
